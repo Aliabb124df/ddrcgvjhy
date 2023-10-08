@@ -1,5 +1,5 @@
 <?php
-include ('createdatabase');
+include ('createdatabase.php');
 $conn = mysqli_connect('localhost','root','','myDBPDO') or die('connection failed');
 session_start();
 $user_id = $_SESSION['user_id'];
